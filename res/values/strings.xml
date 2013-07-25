@@ -1,5 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">Podcast</string>
+    <string name="title_activity_main">Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_podcasts">Podcasts</string>
 
 </resources>
