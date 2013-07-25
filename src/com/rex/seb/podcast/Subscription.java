@@ -6,11 +6,12 @@ public class Subscription
 {
   private String mName;
   private URL mUrl;
+  private String mDescr;
   
-  public Subscription(String name, URL url)
+  public Subscription(String name, String descr)
   {
     mName = name;
-    mUrl = url;
+    mDescr = descr;
   }
   
   /** Accessors for member variables **/
@@ -22,5 +23,17 @@ public class Subscription
   public URL getURL()
   {
     return mUrl;
+  }
+  
+  public String getDescr()
+  {
+    return mDescr;
+  }
+  
+  @Override
+  public String toString()
+  {
+    // WE'll need this for the ListView, I think
+    return mName + "\n" + mDescr;
   }
 }
